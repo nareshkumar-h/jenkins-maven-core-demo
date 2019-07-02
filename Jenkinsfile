@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage('Checkout') { 
             steps { 
-              mvn checkout
+              scm checkout
             }
         }
         stage('Build') { 
