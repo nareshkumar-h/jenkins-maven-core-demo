@@ -1,4 +1,4 @@
-# Jenkins Build for Maven Core Java Project     
+# Jenkins Build for Maven Core Java Project      
 
 #### Prerequisite:
 1. Install Jenkins ( http://localhost:8080 )
