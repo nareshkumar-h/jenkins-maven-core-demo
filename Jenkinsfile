@@ -2,7 +2,7 @@ node {
    def mvnHome
    stage('Checkout') {
       git 'https://github.com/nareshkumar-h/jenkins-maven-core-demo.git'
-      mvnHome = tool 'Maven'
+      mvnHome = tool 'maven'
    }
    stage('Build') {
         withEnv(["MVN_HOME=$mvnHome"]) {
